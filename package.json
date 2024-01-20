@@ -1,0 +1,14 @@
+{
+  "name": "worldtobuild-launcher",
+  "version": "1.0.5",
+  "description": "The cross-platform launcher for World to Build",
+  "main": "index.js",
+  "author": "Happy Ninja Games",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "axios": "^0.21.1",
+    "unzipper": "^0.10.11",
+    "windows": "0.0.9"
+  }
+}

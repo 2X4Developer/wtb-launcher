@@ -1,0 +1,15 @@
+1. Locate the Electron project folder in File Explorer
+2. Clear out the /dist/ folder to be safe
+3. Run the following command in the folder: "npm run dist"
+
+INSTALLER
+The "World to Build {version}.exe" in /dist/ is the new installer
+--> Our naming convention for the installer is "WorldtoBuild-Installer.exe" <--
+The renamed installer can be uploaded to the CDN at this point
+--> The installer doesn't typically need to uploaded every Launcher update <--
+
+LAUNCHER
+The contents of /dist/win-unpacked/ is the new launcher.
+--> Ensure the name of the .exe is "Launcher.exe" <--
+Zip the folder and rename the zip to "Launcher-Windows-v{versionNumber}.zip"
+The renamed zip folder can be uploaded to the CDN at this point
